@@ -70,12 +70,21 @@
     <main>
  <!-- Calendar Section -->
 
-  
+   
   <!-- calendar 태그 -->
   <div id='calendar-container'>
-    
+
     <div id='calendar'></div>
     <div id="calendarWrite"></div>
+     <div class="circles">
+        <div class="circle1"></div>
+        <div style="margin-left: 5px;">예약 가능</div>
+        <div class="circle2"></div>
+        <div style="margin-left: 5px;">예약 진행</div>
+        <div class="circle3"></div>
+        <div style="margin-left: 5px;">예약 완료</div>
+      </div>
+      <input type="button" value="예약 진행" class="reservationing"/>
   </div>
   <script>
     (function () {
